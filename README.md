@@ -1,4 +1,5 @@
 **Automated Registration and Login Script**
+
 This repository contains a script that automates the registration and login process for the website "buggy.justtestit.org" using Playwright. Below is a detailed explanation of the script's functionality and its components.
 
 **Script Overview**
@@ -39,9 +40,13 @@ All errors are logged with appropriate messages, indicating which user’s regis
 **Flexibility and Modifications:**
 
 The script is flexible and can be easily modified to accommodate different testing scenarios or browser environments. You can adjust the data source, target browsers, and other configurations as needed.
-**Getting Started
-To run the script:**
+
+**Getting Started**
+
+**To run the script:**
 
 Ensure you have the required dependencies installed, including Playwright and Pandas.
+
 Place your Excel file with user data in the specified path or update the script to point to your desired data source.
+
 Run the script to perform automated registration and login, and review the screenshots and logs for results.
