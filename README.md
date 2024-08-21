@@ -41,7 +41,11 @@ All errors are logged with appropriate messages, indicating which user’s regis
 
 The script is flexible and can be easily modified to accommodate different testing scenarios or browser environments. You can adjust the data source, target browsers, and other configurations as needed.
 
+
+
 **Getting Started**
+
+
 
 **How to Run the Script**
 Follow these steps to set up and execute the script for automated registration and login:
