@@ -8,8 +8,8 @@ def main():
     It reads user data from an Excel file, performs registration, logs in, and 
     takes screenshots on success or failure.
     """
-    # Load the Excel file
-    file_path = r"C:\Users\CARLOS\Desktop\Datos_de_prueba\Libro1.xlsx"
+    # Load the Excel file. Replace with the location where you placed the Excel file.
+    file_path = r"location where you placed the Excel file\Libro1.xlsx"
     users_df = pd.read_excel(file_path, engine='openpyxl')
     # Get the directory path of the Excel file
     base_path = os.path.dirname(file_path)
