@@ -43,10 +43,55 @@ The script is flexible and can be easily modified to accommodate different testi
 
 **Getting Started**
 
-**To run the script:**
+**How to Run the Script**
+Follow these steps to set up and execute the script for automated registration and login:
 
-Ensure you have the required dependencies installed, including Playwright and Pandas.
+**Clone the Repository:**
 
-Place your Excel file with user data in the specified path or update the script to point to your desired data source.
+**bash
+Copiar código**
+git clone https://github.com/Carlos1Dimuro/Login_with_playwright.git
 
-Run the script to perform automated registration and login, and review the screenshots and logs for results.
+After cloning, navigate into the directory of the cloned repository:
+cd your-repository
+
+**Install Required Dependencies:**
+Ensure you have Python installed. Then, install the necessary Python libraries by running:
+
+**bash
+Copiar código**
+pip install pandas playwright openpyxl
+
+**Locate the Excel File:**
+
+The Excel file is included in the repository. It is located at data/Libro1.xlsx (or the appropriate path based on your repository structure).
+
+**Update the Script with the Correct Path:**
+
+Open the script file (e.g., automation_script.py) in a text editor.
+
+***Locate the line where the Excel file path is specified:***
+**python
+Copiar código**
+file_path = r"data/Libro1.xlsx"
+Ensure the path matches the location of the Excel file within the repository.
+
+**Run the Script:
+Execute the script using Python:**
+
+bash
+Copiar código
+python automation_script.py
+
+Review Results:
+
+The script will perform automated registration and login on the specified website.
+Check the screenshots directory for the output files. The filenames will indicate whether the login was successful or if there was an error.
+
+Troubleshooting:
+
+If you encounter any issues, make sure that the Excel file's structure matches the script's expected format.
+Verify that all dependencies are correctly installed.
+Review any error messages printed in the console for guidance on resolving issues.
+Or contact me so we can find a solution.
+**https://www.linkedin.com/in/carlosdimurolarg/**
