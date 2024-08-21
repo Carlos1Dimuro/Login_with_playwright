@@ -54,6 +54,7 @@ Follow these steps to set up and execute the script for automated registration a
 
 **bash
 Copiar código**
+
 git clone https://github.com/Carlos1Dimuro/Login_with_playwright.git
 
 After cloning, navigate into the directory of the cloned repository:
@@ -64,6 +65,7 @@ Ensure you have Python installed. Then, install the necessary Python libraries b
 
 **bash
 Copiar código**
+
 pip install pandas playwright openpyxl
 
 **Locate the Excel File:**
@@ -75,9 +77,12 @@ The Excel file is included in the repository. It is located at data/Libro1.xlsx 
 Open the script file (e.g., automation_script.py) in a text editor.
 
 ***Locate the line where the Excel file path is specified:***
+
 **python
 Copiar código**
+
 file_path = r"data/Libro1.xlsx"
+
 Ensure the path matches the location of the Excel file within the repository.
 
 **Run the Script:
@@ -87,15 +92,18 @@ bash
 Copiar código
 python automation_script.py
 
-Review Results:
+**Review Results:**
 
 The script will perform automated registration and login on the specified website.
 Check the screenshots directory for the output files. The filenames will indicate whether the login was successful or if there was an error.
 
-Troubleshooting:
+**Troubleshooting:**
 
 If you encounter any issues, make sure that the Excel file's structure matches the script's expected format.
+
 Verify that all dependencies are correctly installed.
+
 Review any error messages printed in the console for guidance on resolving issues.
+
 Or contact me so we can find a solution.
 **https://www.linkedin.com/in/carlosdimurolarg/**
